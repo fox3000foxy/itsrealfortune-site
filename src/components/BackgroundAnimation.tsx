@@ -2,7 +2,7 @@ import React from 'react';
 
 const BackgroundAnimation: React.FC = () => {
   return (
-    <div className="container" style={{ position: 'fixed', left: 0, top: 0, width: '100%', height: '100%', zIndex: -1 }}>
+    <div className="container">
       <div className="outline-container">
         <svg className="base-shape" width="810" height="923" viewBox="0 0 810 923" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path 
@@ -39,4 +39,5 @@ const BackgroundAnimation: React.FC = () => {
 };
 
 export default BackgroundAnimation;
+
 
