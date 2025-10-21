@@ -500,8 +500,8 @@ button.submit-btn:hover {
 
 .timeline {
     position: relative;
-    max-width: 1000px;
-    margin: 0 auto;
+    max-width: 1200px;
+    margin: 30px auto;
 }
 
 .timeline::after {
@@ -519,8 +519,8 @@ button.submit-btn:hover {
 .timeline-item {
     padding: 10px 40px;
     position: relative;
-    background-color: inherit;
     width: 50%;
+    box-sizing: border-box;
 }
 
 .timeline-item::after {
@@ -544,11 +544,11 @@ button.submit-btn:hover {
 }
 
 .timeline-left::after {
-    right: -10px;
+    right: -14px;
 }
 
 .timeline-right::after {
-    left: -10px;
+    left: -14px;
 }
 
 .timeline-content {
@@ -874,9 +874,10 @@ footer {
         left: 0 !important;
     }
     
-    .timeline-item::after {
-        left: 21px !important;
-        right: auto;
+    .timeline-left::after,
+    .timeline-right::after {
+        left: 17px !important;
+        right: auto !important;
     }
     
     .portfolio-grid {
@@ -938,11 +939,6 @@ footer {
     .testimonial-card {
         min-width: auto;
         scroll-snap-align: none;
-    }
-    
-    .timeline-left::after, 
-    .timeline-right::after {
-        left: 15px;
     }
     
     .timeline-right {
