@@ -1,0 +1,42 @@
+{
+    "site.title.home": "Sono Fortune,",
+    "site.description.home": "un'aspirante astrofisica e studentessa all'Università di Caen.",
+    "site.description.home1": "Sono una studentessa all'Università di Caen, in Francia, e sto attualmente conseguendo un Master in Astrofisica.",
+    "site.description.home2": "Attualmente lavoro come barista e sono sempre alla ricerca di nuovi progetti e opportunità.",
+    "site.description.home3": "Sono anche un'artista e amo creare arte digitale. Puoi vedere le mie opere su <a href=\"https://www.instagram.com/itsrealfortune\" target=\"_blank\">Instagram</a>.",
+
+    "site.title.about": "Su di Me,",
+    "site.description.about": "Chloé Rolzhausen",
+    "site.description.about1": "Sono un'aspirante astrofisica di 20 anni con la passione per l'esplorazione dei misteri dell'universo. Mi dedico ai miei studi e miro a contribuire al campo dell'astrofisica attraverso ricerche e progetti innovativi.",
+    "site.description.about2": "Questo sito web serve come portfolio per mostrare il mio lavoro, i miei interessi e i progetti futuri nel campo della scienza spaziale. Unisciti a me in questo emozionante viaggio attraverso il cosmo!",
+    "site.description.about3": "Permette anche a Google di trovarmi in modo appropriato. L'attuale SEO su di me è davvero pessimo. Attraverso i miei link di contatto, puoi trovarmi su <a href=\"https://www.instagram.com/itsrealfortune\" target=\"_blank\">Instagram</a>, <a href=\"https://www.linkedin.com/in/chloé-rolzhausen-1b0439316/\" target=\"_blank\">LinkedIn</a> e <a href=\"https://github.com/itsrealfortune\" target=\"_blank\">GitHub</a>.",
+
+    "site.title.contact": "Contattami",
+    "site.description.contact": "Se hai domande, proposte di collaborazione o vuoi discutere di argomenti cosmici, non esitare a contattarmi!",
+    "site.contact.email": "Email: ",
+    "site.contact.github": "GitHub: ",
+    "site.contact.linkedin": "LinkedIn: ",
+    "site.contact.instagram": "Instagram: ",
+    "site.contact.guns": "Guns.lol: ",
+    "site.contact.twitch": "Twitch: ",
+    "site.contact.reddit": "Reddit: ",
+    "site.contact.paypal": "Puoi aiutarmi finanziariamente donando al mio portafoglio PayPal",
+    "site.contact.kofi": "Puoi anche aiutarmi offrendomi un caffè ",
+    "site.contact.discord": "Se vuoi aggiungermi su Discord, il mio nome utente è itsrealfortune.",
+    "site.contact.steam": "Puoi trovarmi anche su Steam ",
+    "site.contact.paypal.link": "qui",
+    "site.contact.kofi.link": "qui",
+    "site.contact.steam.link": "qui",
+
+    "site.title.services": "Servizi",
+    "site.description.services": "Al momento non offro alcun servizio.",
+    "site.description.services1": "Per quanto riguarda le collaborazioni, sono aperta a discutere potenziali progetti, specialmente nel campo dell'astrofisica e della scienza spaziale.",
+    "site.description.services2": "Per quanto riguarda il lavoro, sono aperta a discutere potenziali opportunità, specialmente nel campo dell'astrofisica e della scienza spaziale. Ma al momento non sto cercando lavoro. Lavoro come barista.",
+    "site.description.services3": "E infine, per quanto riguarda l'arte digitale, non accetto commissioni.",
+
+    "site.header.h2": "Benvenuto nel Mio Posto Cosmico",
+    "site.header.home": "Home",
+    "site.header.about": "Su di Me",
+    "site.header.services": "Servizi",
+    "site.header.contact": "Contattami"
+}

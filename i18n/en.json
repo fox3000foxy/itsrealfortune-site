@@ -1,0 +1,45 @@
+{
+    "site.title.home": "I'm Fortune,",
+    "site.description.home": "an aspiring astrophysicist and a student at the University of Caen.",
+    "site.description.home1": "I'm a student at the University of Caen, France, and I'm currently pursuing a Master's degree in Astrophysics.",
+    "site.description.home2": "I currently work as a coffee barista, and I'm always looking for new projects and opportunities to work on.",
+    "site.description.home3": "I'm also an artist, and I love to create digital art. You can check out my art on <a href=\"https://www.instagram.com/itsrealfortune\" target=\"_blank\">Instagram</a>.",
+
+    "site.title.about": "About Me,",
+    "site.description.about": "Chloé Rolzhausen",
+    "site.description.about1": "I am a 20-year-old aspiring astrophysicist with a passion for exploring the mysteries of the universe. I am dedicated to my studies and aim to contribute to the field of astrophysics through innovative research and projects.",
+    "site.description.about2": "This website serves as my portfolio to showcase my work, interests, and future endeavors in the realm of space science. Join me on this exciting journey as I navigate the cosmos!",
+    "site.description.about3": "It will also allows Google to find me in a proper way. The acutal SEO about me is shit as hell. By my contact links, you can find me on <a href=\"https://www.instagram.com/itsrealfortune\" target=\"_blank\">Instagram</a>, <a href=\"https://www.linkedin.com/in/chloé-rolzhausen-1b0439316/\" target=\"_blank\">LinkedIn</a> and <a href=\"https://github.com/itsrealfortune\" target=\"_blank\">GitHub</a>.",
+
+    "site.title.contact": "Contact Me",
+    "site.description.contact": "If you have any inquiries, collaborations, or cosmic discussions in mind, feel free to reach out to me!",
+    "site.contact.email": "Email: ",
+    "site.contact.github": "GitHub: ",
+    "site.contact.linkedin": "LinkedIn: ",
+    "site.contact.instagram": "Instagram: ",
+    "site.contact.guns": "Guns.lol: ",
+    "site.contact.twitch": "Twitch: ",
+    "site.contact.reddit": "Reddit: ",
+    "site.contact.paypal": "You can help me financially by donating to my PayPal wallet",
+    "site.contact.kofi": "You can also help me by buying me a coffee ",
+    "site.contact.discord": "If you want to add me on Discord, my username is itsrealfortune.",
+    "site.contact.steam": "You can also find me on Steam ",
+    "site.contact.paypal.link": "here",
+    "site.contact.kofi.link": "here",
+    "site.contact.steam.link": "here",
+
+    "site.title.services": "Services",
+    "site.description.services": "I'm not offering any services yet.",
+    "site.description.services1": "In terms of collaborations, I'm open to discussing potential projects, especially in the field of astrophysics and space science.",
+    "site.description.services2": "In terms of jobs, I'm open to discussing potential job opportunities, especially in the field of astrophysics and space science. But I'm not looking for a job right now. I work as coffee barista.",
+    "site.description.services3": "And finally, in terms of digital arts, I'm commision closed.",
+
+    "site.header.h2": "Welcome to My Cosmic Place",
+    "site.header.home": "Home",
+    "site.header.about": "About",
+    "site.header.services": "Services",
+    "site.header.contact": "Contact",
+
+    "site.404": "404 - Page Not Found",
+    "site.404.description": "Oops! The page you are looking for does not exist. Please check the URL or return to the homepage."
+}

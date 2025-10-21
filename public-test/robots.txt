@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+Allow: /about
+Allow: /services
+Allow: /contact
+Allow: /assets/
+Allow: /styles/
+
+# Prevent caching of error pages
+Disallow: /404.html
+
+# Add sitemap once implemented
+# Sitemap: https://itsrealfortune.fr/sitemap.xml
+Sitemap: https://itsrealfortune.fr/sitemap.xml
+
+# Crawl-delay to prevent overwhelming the server
+Crawl-delay: 10
