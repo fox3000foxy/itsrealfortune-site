@@ -1,0 +1,45 @@
+{
+    "site.title.home": "저는 Fortune입니다,",
+    "site.description.home": "칸 대학교에서 공부하는 천체물리학 지망생입니다.",
+    "site.description.home1": "프랑스 칸 대학교에서 천체물리학 석사 과정을 공부하고 있습니다.",
+    "site.description.home2": "현재 바리스타로 일하고 있으며, 항상 새로운 프로젝트와 기회를 찾고 있습니다.",
+    "site.description.home3": "저는 또한 디지털 아트를 창작하는 예술가입니다. 제 작품은 <a href=\"https://www.instagram.com/itsrealfortune\" target=\"_blank\">Instagram</a>에서 확인하실 수 있습니다.",
+
+    "site.title.about": "자기소개",
+    "site.description.about": "Chloé Rolzhausen",
+    "site.description.about1": "저는 우주의 신비를 탐구하는 것에 열정을 가진 20세 천체물리학 지망생입니다. 혁신적인 연구와 프로젝트를 통해 천체물리학 분야에 기여하는 것을 목표로 학업에 전념하고 있습니다.",
+    "site.description.about2": "이 웹사이트는 우주과학 분야에서의 제 작업, 관심사, 그리고 미래의 활동을 보여주는 포트폴리오입니다. 우주를 탐험하는 이 흥미진진한 여정에 함께해 주세요!",
+    "site.description.about3": "또한 이 사이트는 구글에서 저를 적절하게 찾을 수 있도록 도와줍니다. 현재 저에 대한 SEO는 매우 좋지 않습니다. 연락처 링크를 통해 <a href=\"https://www.instagram.com/itsrealfortune\" target=\"_blank\">Instagram</a>, <a href=\"https://www.linkedin.com/in/chloé-rolzhausen-1b0439316/\" target=\"_blank\">LinkedIn</a>, <a href=\"https://github.com/itsrealfortune\" target=\"_blank\">GitHub</a>에서 저를 찾으실 수 있습니다.",
+
+    "site.title.contact": "연락하기",
+    "site.description.contact": "문의사항, 협업 제안, 또는 우주에 대한 토론을 원하시면 언제든 연락해 주세요!",
+    "site.contact.email": "이메일: ",
+    "site.contact.github": "GitHub: ",
+    "site.contact.linkedin": "LinkedIn: ",
+    "site.contact.instagram": "Instagram: ",
+    "site.contact.guns": "Guns.lol: ",
+    "site.contact.twitch": "Twitch: ",
+    "site.contact.reddit": "Reddit: ",
+    "site.contact.paypal": "PayPal 지갑으로 후원해 주실 수 있습니다",
+    "site.contact.kofi": "커피를 사주시는 것으로도 도움을 주실 수 있습니다 ",
+    "site.contact.discord": "Discord에서는 사용자 이름 itsrealfortune으로 저를 찾으실 수 있습니다.",
+    "site.contact.steam": "Steam에서도 저를 찾으실 수 있습니다 ",
+    "site.contact.paypal.link": "여기",
+    "site.contact.kofi.link": "여기",
+    "site.contact.steam.link": "여기",
+
+    "site.title.services": "서비스",
+    "site.description.services": "현재는 서비스를 제공하고 있지 않습니다.",
+    "site.description.services1": "협업과 관련해서는 특히 천체물리학과 우주과학 분야의 잠재적 프로젝트에 대해 논의할 수 있습니다.",
+    "site.description.services2": "취업과 관련해서는 특히 천체물리학과 우주과학 분야의 잠재적 기회에 대해 논의할 수 있습니다. 하지만 현재는 구직 중이 아닙니다. 바리스타로 일하고 있습니다.",
+    "site.description.services3": "마지막으로, 디지털 아트 커미션은 현재 받지 않고 있습니다.",
+
+    "site.header.h2": "나의 우주 장소에 오신 것을 환영합니다",
+    "site.header.home": "홈",
+    "site.header.about": "자기소개",
+    "site.header.services": "서비스",
+    "site.header.contact": "연락하기",
+
+    "site.404": "404 - 페이지를 찾을 수 없습니다",
+    "site.404.description": "오류! 찾으려는 페이지가 없습니다. URL을 확인하거나 홈페이지로 돌아가세요."
+}
