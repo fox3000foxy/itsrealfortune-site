@@ -22,8 +22,8 @@ const Collaborations: React.FC = () => {
             link: 'https://aperture-sciences.com'
         },
         {
-            name: 'Fox3000foxy\'s Studio',
-            description: 'Fox3000foxy\'s Studio est le serveur Discord de mon ami Fox3000foxy. C\'est un serveur communautaire sur lequel j\'ai pu rencontrer de nombreuses personnes qui m\'ont aidé à grandir et à devenir la personne que je suis aujourd\'hui.',
+            name: 'Fox3000foxy',
+            description: 'Fox3000foxy est une amie chère. Elle m\'a beaucoup aidée à grandir et à devenir la personne que je suis aujourd\'hui.',
             image: './fox3000foxy.png',
             link: 'https://fox3000foxy.com'
         }
