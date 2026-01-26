@@ -145,9 +145,9 @@ const Testimonials: React.FC = () => {
       <h2>Témoignages</h2>
       <div className='section-content'>
         <p>Ce que disent mes professeurs, collègues et abonnés à propos de mon travail.</p>
-        <div className='testimonials' style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'space-between' }}>
+        <div className='testimonials'>
           {testimonials.map((testimonial, index) => (
-            <div key={index} className='testimonial-card' style={{ flex: '1 1 calc(33.33% - 20px)', margin: '10px' }}>
+            <div key={index} className='testimonial-card'>
               <div className='testimonial-quote'>«</div>
               <div className='testimonial-content'>
                 <p>{testimonial.content}</p>
@@ -169,13 +169,13 @@ const Testimonials: React.FC = () => {
           <textarea name='content' placeholder='Votre témoignage...' value={form.content} onChange={handleChange} rows={3} />
           <input name='author' placeholder='Votre prénom ou pseudo' value={form.author} onChange={handleChange} />
           <input name='role' placeholder='Votre rôle (ami, abonné, etc.)' value={form.role} onChange={handleChange} />
-          <button type='submit'>Envoyer</button>
+          <button type='submit' className='testimonial-form-btn'>Envoyer</button>
           {error && <div className='testimonial-form-error'>{error}</div>}
           {submitStatus === 'success' && (
-            <div style={{ color: '#ffb347', marginTop: 10 }}>Témoignage envoyé avec succès !</div>
+            <div className='testimonial-form-success'>Témoignage envoyé avec succès !</div>
           )}
           {submitStatus === 'error' && (
-            <div style={{ color: '#ff4d4d', marginTop: 10 }}>Erreur lors de l'envoi du témoignage. Veuillez réessayer.</div>
+            <div className='testimonial-form-error'>Erreur lors de l'envoi du témoignage. Veuillez réessayer.</div>
           )}
         </form>
       </div>
