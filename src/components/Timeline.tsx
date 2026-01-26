@@ -14,18 +14,18 @@ const Timeline: React.FC = () => {
       position: 'left'
     },
     {
-      year: '2024 à 2025',
-      description: "Études en Astrophysique à l'Université de Caen, et sidejob de barista à la Taverne de la Paix",
+      year: '2024',
+      description: 'Stage de recherche chez NVIDIA (IA et calcul scientifique)',
       position: 'right'
     },
     {
-      year: '2025',
-      description: 'Lancement de ma chaîne YouTube de storytelling de jeux vidéo',
+      year: '2024 à 2025',
+      description: "Études en Astrophysique à l'Université de Caen, et sidejob de barista à la Taverne de la Paix",
       position: 'left'
     },
     {
       year: '2025',
-      description: 'Stage de recherche chez NVIDIA (IA et calcul scientifique)',
+      description: 'Lancement de ma chaîne YouTube de storytelling de jeux vidéo',
       position: 'right'
     },
     {
