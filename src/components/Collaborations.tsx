@@ -13,7 +13,7 @@ const Collaborations: React.FC = () => {
             name: 'ElixLens',
             description: 'ElixLens est une entreprise de photographie créée par Elise Riboux. Elle y partage sa passion pour la photographie et est consultant photographie pour FoxyAgency.',
             image: './elixlens.ico',
-            link: 'https://elixlens.ovh'
+            link: 'https://elixlens.fox3000foxy.com'
         },
         {
             name: 'GlaDOS Bot',
@@ -51,7 +51,7 @@ const Collaborations: React.FC = () => {
                         <span style={{ display: 'inline-block', transition: 'transform 0.3s ease' }}>
                             <img src="./foxyagency-full.png" alt="FoxyAgency" style={{ maxWidth: '200px', borderRadius: '5px' }} className="no-shadow" />
                         </span>
-                        <p>FoxyAgency est mon agence de communication. Elle est chargée de la gestion de mes réseaux sociaux et de la création de contenu pour mes chaînes. Grâce à elle, j'ai pu obtenir mes premières collaborations et gagné en visibilité sur les autres réseaux sociaux.</p>
+                        <p>FoxyAgency est mon agence de communication. Elle est chargée de la gestion de mes réseaux sociaux et de la création de contenu pour mes chaînes. Grâce à elle, j'ai pu obtenir mes premières collaborations et gagner en visibilité sur les autres réseaux sociaux.</p>
                         <p style={{ marginTop: '10px', fontSize: '0.9em' }}>Visitez <a href="https://foxyagency.fr" target="_blank" rel="noopener noreferrer">foxyagency.fr</a> pour plus d'informations</p>
                     </a>
                 </div>
