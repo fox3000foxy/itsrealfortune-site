@@ -1,3 +1,121 @@
+/* --- Témoignages --- */
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.testimonial-card {
+  background: #353535;
+  color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px 0 rgba(0,0,0,0.18);
+  padding: 28px 28px 18px 28px;
+  margin: 0 auto;
+  flex: 1 1 320px;
+  max-width: 420px;
+  min-width: 260px;
+  position: relative;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.testimonial-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.22);
+}
+.testimonial-quote {
+  font-size: 2.5rem;
+  color: #ffb347;
+  position: absolute;
+  top: 18px;
+  left: 18px;
+  font-family: serif;
+  opacity: 0.7;
+}
+.testimonial-content {
+  margin-bottom: 18px;
+  font-size: 1.08rem;
+  line-height: 1.5;
+  padding-left: 18px;
+}
+.testimonial-author-info {
+  padding-left: 18px;
+}
+.testimonial-author-name {
+  font-weight: bold;
+  color: #ffb347;
+  font-size: 1.08rem;
+  display: block;
+}
+.testimonial-author-role {
+  color: #ccc;
+  font-size: 0.98rem;
+  display: block;
+}
+
+/* --- Formulaire témoignage --- */
+.testimonial-form-container {
+  margin-top: 48px;
+  background: #232323;
+  border-radius: 16px;
+  padding: 32px 24px 24px 24px;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 2px 16px 0 rgba(0,0,0,0.13);
+}
+.testimonial-form h3 {
+  margin-bottom: 18px;
+}
+.testimonial-form textarea,
+.testimonial-form input {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  background: #444;
+  color: #fff;
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+.testimonial-form textarea:focus,
+.testimonial-form input:focus {
+  outline: 2px solid #ffb347;
+  background: #555;
+}
+.testimonial-form button {
+  background: #ffb347;
+  color: #232323;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 24px;
+  font-size: 1.08rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+.testimonial-form button:hover {
+  background: #ffd580;
+}
+.testimonial-form-error {
+  color: #ff4d4d;
+  margin-top: 8px;
+  font-size: 0.98rem;
+}
+/* Animation pour la timeline */
+.timeline-animate {
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
 #root {
   
   margin: 0 auto;
