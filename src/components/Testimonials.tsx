@@ -91,6 +91,11 @@ const Testimonials: React.FC = () => {
       author: 'Nina',
       role: 'collègue de promo',
     },
+    {
+      content: "J'apprécie Miss Fortune dans sa rigueur et son état d'esprit, c'est une personne très sincère et dévouée, malgré ses cheveux blond elle sait pas mal de choses.",
+      author: 'Thomiche',
+      role: "Bogoss (autoproclamé, mais c'est vrai qu'il l'est)",
+    }
   ]);
 
   const [form, setForm] = useState({ content: '', author: '', role: '' });
