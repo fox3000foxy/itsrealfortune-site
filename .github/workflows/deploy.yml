@@ -64,6 +64,6 @@ jobs:
         uses: fox3000foxy/deploy-from-private-to-github-pages@v1
         with:
           artifact: ${{ needs.build.outputs.artifact_id }}
-          repo: https://github.com/itsrealfortune/itsrealfortune.github.io
+          repo: itsrealfortune/itsrealfortune.github.io
           token: ${{ secrets.DEPLOY_TOKEN }}
         # the action will auto-detect the target pages repo and use a deploy branch by default
