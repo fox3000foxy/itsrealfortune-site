@@ -47,13 +47,13 @@ const Collaborations: React.FC = memo(() => {
                 </div>
                 <div style={{ marginTop: '30px', textAlign: 'center', padding: '15px', backgroundColor: 'rgba(0,0,0,0.2)', borderRadius: '10px' }}>
                     <p style={{ marginBottom: '10px' }}>Fièrement représentée par :</p>
-                    <a href="https://foxyagency.fr" style={{ textDecoration: 'none', color: 'white' }} target="_blank" rel="noopener noreferrer">
-                        <span style={{ display: 'inline-block', transition: 'transform 0.3s ease' }}>
-                            <img src="./foxyagency-full.png" alt="FoxyAgency" style={{ maxWidth: '200px', borderRadius: '5px' }} className="no-shadow" />
-                        </span>
-                        <p>FoxyAgency est mon agence de communication. Elle est chargée de la gestion de mes réseaux sociaux et de la création de contenu pour mes chaînes. Grâce à elle, j'ai pu obtenir mes premières collaborations et gagner en visibilité sur les autres réseaux sociaux.</p>
-                        <p style={{ marginTop: '10px', fontSize: '0.9em' }}>Visitez <a href="https://foxyagency.fr" target="_blank" rel="noopener noreferrer">foxyagency.fr</a> pour plus d'informations</p>
-                    </a>
+                    <span style={{ display: 'inline-block', transition: 'transform 0.3s ease' }}>
+                        <img src="./foxyagency-full.png" alt="FoxyAgency" style={{ maxWidth: '200px', borderRadius: '5px' }} className="no-shadow" />
+                    </span>
+                    <p>FoxyAgency est mon agence de communication. Elle est chargée de la gestion de mes réseaux sociaux et de la création de contenu pour mes chaînes. Grâce à elle, j'ai pu obtenir mes premières collaborations et gagner en visibilité sur les autres réseaux sociaux.</p>
+                    <p style={{ marginTop: '10px', fontSize: '0.9em' }}>
+                        Visitez <a href="https://foxyagency.fr" target="_blank" rel="noopener noreferrer">foxyagency.fr</a> pour plus d'informations
+                    </p>
                 </div>
             </div>
         </section>

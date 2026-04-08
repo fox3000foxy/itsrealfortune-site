@@ -1,4 +1,6 @@
 import { Suspense, lazy } from 'react';
+import "./App.css";
+import "./styles/main.css";
 
 const About = lazy(() => import('./components/About'));
 const BackgroundAnimation = lazy(() => import('./components/BackgroundAnimation'));
