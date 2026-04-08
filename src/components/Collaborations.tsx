@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 
 interface Partner {
     name: string;
@@ -7,7 +7,7 @@ interface Partner {
     link: string;
 }
 
-const Collaborations: React.FC = () => {
+const Collaborations: React.FC = memo(() => {
     const partners: Partner[] = [
         {
             name: 'ElixLens',
@@ -58,7 +58,7 @@ const Collaborations: React.FC = () => {
             </div>
         </section>
     );
-};
+});
 
 export default Collaborations;
 

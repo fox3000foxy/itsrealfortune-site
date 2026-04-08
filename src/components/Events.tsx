@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 
 interface Event {
   title: string;
@@ -7,7 +7,7 @@ interface Event {
   description: string;
 }
 
-const Events: React.FC = () => {
+const Events: React.FC = memo(() => {
   const events: Event[] = [
     {
       title: 'Conférence "Exploration des Mystères de l\'Univers"',
@@ -53,7 +53,7 @@ const Events: React.FC = () => {
       </div>
     </section>
   );
-};
+});
 
 export default Events;
 

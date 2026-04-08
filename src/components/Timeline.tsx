@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 
 interface TimelineItem {
   year: string;
@@ -6,7 +6,7 @@ interface TimelineItem {
   position: 'left' | 'right';
 }
 
-const Timeline: React.FC = () => {
+const Timeline: React.FC = memo(() => {
   const timelineItems: TimelineItem[] = [
     {
       year: '2020 à 2023',
@@ -58,7 +58,7 @@ const Timeline: React.FC = () => {
       </div>
     </section>
   );
-};
+});
 
 export default Timeline;
 

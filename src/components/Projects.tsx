@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 
 interface Project {
   image: string;
@@ -6,7 +6,7 @@ interface Project {
   description: string;
 }
 
-const Projects: React.FC = () => {
+const Projects: React.FC = memo(() => {
   const projects: Project[] = [
     {
       image: './astro.jpg',
@@ -60,7 +60,7 @@ const Projects: React.FC = () => {
       </div>
     </section>
   );
-};
+});
 
 export default Projects;
 

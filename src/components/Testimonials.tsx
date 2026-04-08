@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo } from 'react';
 
 interface Testimonial {
   content: string;
@@ -10,7 +10,7 @@ import '../App.css';
 
 import { useState } from 'react';
 
-const Testimonials: React.FC = () => {
+const Testimonials: React.FC = memo(function Testimonials() {
   const [testimonials, setTestimonials] = useState<Testimonial[]>([
     {
       content: "J'ai vu Chloé évoluer au fil des années, passant de la physique à la psychologie avec une curiosité et une ouverture d'esprit admirables. Elle sait toujours rebondir et s'adapter.",

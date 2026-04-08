@@ -1,6 +1,6 @@
-import React from 'react';
+import React, { memo } from 'react';
 
-const Skills: React.FC = () => {
+const Skills = memo(function Skills() {
   const skills = [
     { name: 'Études en Astrophysique', progress: 85 },
     { name: 'Maîtrise Barista', progress: 90 },
@@ -24,7 +24,7 @@ const Skills: React.FC = () => {
       </div>
     </section>
   );
-};
+});
 
 export default Skills;
 
