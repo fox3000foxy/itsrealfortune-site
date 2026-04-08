@@ -340,54 +340,6 @@ footer {
     filter: grayscale(0%);
 }
 
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    margin: 30px 0;
-    border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-}
-
-.video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: none;
-    border-radius: 10px;
-}
-
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    gap: 15px;
-    margin: 30px 0;
-}
-
-.gallery img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 8px;
-    transition: all 0.3s ease;
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-
-.gallery img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
-}
-
-.collaboration-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    margin-top: 30px;
-}
-
 .collaboration-form {
     background-color: rgba(255, 255, 255, 0.1);
     padding: 25px;
@@ -535,22 +487,6 @@ button.submit-btn:hover {
     z-index: 1;
 }
 
-.timeline-left {
-    left: 0;
-}
-
-.timeline-right {
-    left: 50%;
-}
-
-.timeline-left::after {
-    right: -14px;
-}
-
-.timeline-right::after {
-    left: -14px;
-}
-
 .timeline-content {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.2);
@@ -638,11 +574,6 @@ button.submit-btn:hover {
     border-radius: 50%;
     margin-right: 15px;
     object-fit: cover;
-}
-
-.testimonial-author-info h4 {
-    margin: 0;
-    color: var(--accent-color);
 }
 
 .testimonial-author-info p {
@@ -859,9 +790,6 @@ footer {
 }
 
 @media (max-width: 992px) {
-    .collaboration-container {
-        grid-template-columns: 1fr;
-    }
     
     .timeline::after {
         left: 31px;
@@ -872,12 +800,6 @@ footer {
         padding-left: 70px;
         padding-right: 25px;
         left: 0 !important;
-    }
-    
-    .timeline-left::after,
-    .timeline-right::after {
-        left: 17px !important;
-        right: auto !important;
     }
     
     .portfolio-grid {
@@ -920,10 +842,6 @@ footer {
         grid-template-columns: 1fr;
     }
     
-    .gallery {
-        grid-template-columns: repeat(2, 1fr);
-    }
-    
     .partners-grid {
         grid-template-columns: 1fr;
         display: grid;
@@ -939,10 +857,6 @@ footer {
     .testimonial-card {
         min-width: auto;
         scroll-snap-align: none;
-    }
-    
-    .timeline-right {
-        left: 0%;
     }
     
     .portfolio-grid {
@@ -962,10 +876,6 @@ footer {
     
     h2 {
         font-size: 1.5em;
-    }
-    
-    .gallery {
-        grid-template-columns: 1fr;
     }
     
     .social-icons {
