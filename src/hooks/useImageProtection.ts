@@ -1,18 +1,18 @@
 import { useEffect } from 'react';
 
-export const useImageProtection = () => {
+function useImageProtection() {
   useEffect(() => {
-    const handleContextMenu = (e: MouseEvent) => {
-      if ((e.target as HTMLElement).tagName === 'IMG') {
-        e.preventDefault();
-      }
-    };
+    const preventDrag = (e: Event) => e.preventDefault();
 
-    document.addEventListener('contextmenu', handleContextMenu);
+    document.addEventListener('dragstart', preventDrag);
+    document.addEventListener('contextmenu', preventDrag);
 
     return () => {
-      document.removeEventListener('contextmenu', handleContextMenu);
+      document.removeEventListener('dragstart', preventDrag);
+      document.removeEventListener('contextmenu', preventDrag);
     };
-  }, []);
-};
+  }, []); // Dependency array ensures this runs only once
+}
+
+export { useImageProtection };
 

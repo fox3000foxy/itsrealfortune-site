@@ -1,36 +1,32 @@
-import About from './components/About';
-import BackgroundAnimation from './components/BackgroundAnimation';
-import Collaborations from './components/Collaborations';
-import Contact from './components/Contact';
-import Events from './components/Events';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Projects from './components/Projects';
-import Skills from './components/Skills';
-import Testimonials from './components/Testimonials';
-import Timeline from './components/Timeline';
-import { useImageProtection } from './hooks/useImageProtection';
-import './styles/main.css';
+import { Suspense, lazy } from 'react';
+
+const About = lazy(() => import('./components/About'));
+const BackgroundAnimation = lazy(() => import('./components/BackgroundAnimation'));
+const Collaborations = lazy(() => import('./components/Collaborations'));
+const Contact = lazy(() => import('./components/Contact'));
+const Events = lazy(() => import('./components/Events'));
+const Footer = lazy(() => import('./components/Footer'));
+const Header = lazy(() => import('./components/Header'));
+const Projects = lazy(() => import('./components/Projects'));
+const Skills = lazy(() => import('./components/Skills'));
+const Testimonials = lazy(() => import('./components/Testimonials'));
+const Timeline = lazy(() => import('./components/Timeline'));
 
 function App() {
-  useImageProtection();
-
   return (
-    <>
+    <Suspense fallback={<div>Loading...</div>}>
       <BackgroundAnimation />
       <Header />
-      <main>
-        <About />
-        <Skills />
-        <Projects />
-        <Events />
-        <Timeline />
-        <Testimonials />
-        <Collaborations />
-        <Contact />
-      </main>
+      <About />
+      <Collaborations />
+      <Contact />
+      <Events />
+      <Projects />
+      <Skills />
+      <Testimonials />
+      <Timeline />
       <Footer />
-    </>
+    </Suspense>
   );
 }
 
