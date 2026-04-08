@@ -186,6 +186,6 @@ const Testimonials: React.FC = memo(function Testimonials() {
       </div>
     </section>
   );
-};
+});
 
 export default Testimonials;
