@@ -8,13 +8,15 @@
   "scripts": {
     "dev": "bun vite --open",
     "dev:host": "bun vite --host --open",
-    "build": "bun tsc -b && bun vite build",
+    "build": "bun tsc -p tsconfig.json --noEmit && bun vite build",
     "lint": "bun eslint .",
     "preview": "bun vite preview --open"
   },
   "dependencies": {
     "react": "^19.2.4",
-    "react-dom": "^19.2.4"
+    "react-dom": "^19.2.4",
+    "rollup-plugin-visualizer": "^7.0.1",
+    "vite-plugin-compression": "^0.5.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.3",
