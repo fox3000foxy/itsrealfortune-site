@@ -9,7 +9,7 @@
     "dev": "bun vite --open",
     "dev:host": "bun vite --host --open",
     "build": "bun tsc -p tsconfig.json --noEmit && bun vite build",
-    "lint": "bun eslint .",
+    "lint": "bun eslint src --ext .ts,.tsx",
     "preview": "bun vite preview --open"
   },
   "dependencies": {
