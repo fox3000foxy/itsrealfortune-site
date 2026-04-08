@@ -6,11 +6,11 @@
   "description": "Site web personnel de ItsRealFortune - Étudiante en astrophysique, barista et créatrice de contenu",
   "author": "ItsRealFortune",
   "scripts": {
-    "dev": "vite --open",
-    "dev:host": "vite --host --open",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview --open"
+    "dev": "bun vite --open",
+    "dev:host": "bun vite --host --open",
+    "build": "bun tsc -b && bun vite build",
+    "lint": "bun eslint .",
+    "preview": "bun vite preview --open"
   },
   "dependencies": {
     "react": "^19.2.4",
