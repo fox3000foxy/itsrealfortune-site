@@ -1,4 +1,3 @@
-
 :root {
     --primary-color: #ff4b4b;
     --secondary-color: #d83f3f;
@@ -454,6 +453,7 @@ button.submit-btn:hover {
     position: relative;
     max-width: 1200px;
     margin: 30px auto;
+    padding: 20px 0; /* Added padding for better spacing */
 }
 
 .timeline::after {
@@ -466,6 +466,7 @@ button.submit-btn:hover {
     left: 50%;
     margin-left: -3px;
     border-radius: 3px;
+    z-index: 0; /* Ensure it stays behind other elements */
 }
 
 .timeline-item {
@@ -473,6 +474,27 @@ button.submit-btn:hover {
     position: relative;
     width: 50%;
     box-sizing: border-box;
+    z-index: 1; /* Ensure it stays above the line */
+}
+
+.timeline-item.timeline-left {
+    left: 0;
+    text-align: right; /* Align text to the right for left items */
+}
+
+.timeline-item.timeline-right {
+    left: 50%;
+    text-align: left; /* Align text to the left for right items */
+}
+
+.timeline-item.timeline-left::after {
+    left: 100%;
+    transform: translateX(-50%);
+}
+
+.timeline-item.timeline-right::after {
+    left: 0;
+    transform: translateX(-50%);
 }
 
 .timeline-item::after {
@@ -484,7 +506,7 @@ button.submit-btn:hover {
     border: 4px solid var(--primary-color);
     top: 15px;
     border-radius: 50%;
-    z-index: 1;
+    z-index: 2; /* Ensure it stays above the line */
 }
 
 .timeline-content {
@@ -498,6 +520,7 @@ button.submit-btn:hover {
 .timeline-content h3 {
     color: var(--accent-color);
     margin-top: 0;
+    font-size: 1.5em; /* Adjust font size for better visibility */
 }
 
 .event-item {
