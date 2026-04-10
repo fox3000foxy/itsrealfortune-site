@@ -11,14 +11,14 @@ import '../App.css';
 const Testimonials: React.FC = memo(function Testimonials() {
   const testimonials: Testimonial[] = [
     {
-      content: "Chloé a apporte une energie tres positive a l'equipe du cafe. Elle ecoute les clients, garde le cap pendant les rushs et cree une ambiance chaleureuse.",
-      author: 'Stephane Aubert',
-      role: 'Gerant, Taverne de la Paix',
+      content: "Chloé a apporté une énergie très positive à l'équipe du café. Elle écoute les clients, garde le cap pendant les rushs et crée une ambiance chaleureuse.",
+      author: 'Stéphane Aubert',
+      role: 'Gérant, Taverne de la Paix',
     },
     {
-      content: "J'ai decouvert sa chaine YouTube par hasard et j'ai ete bluffee par la clarte des analyses. Les videos sont structurees, accessibles et vraiment captivantes.",
+      content: "J'ai découvert sa chaîne YouTube par hasard et j'ai été bluffée par la clarté des analyses. Les vidéos sont structurées, accessibles et vraiment captivantes.",
       author: 'Marie Leclerc',
-      role: 'Abonnee YouTube',
+      role: 'Abonnée YouTube',
     },
     {
       content: "En tant qu'ancienne enseignante, j'ai vu peu d'etudiants aussi rigoureux et curieux. Meme avec un changement de voie, elle garde un vrai niveau d'exigence.",

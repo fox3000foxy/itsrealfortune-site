@@ -17,19 +17,19 @@ const Timeline: React.FC = memo(() => {
     },
     {
       year: '2025 - 2026',
-      description: "Transition de parcours, arret des etudes d'astrophysique et validation d'une licence de physique (NAC).",
+      description: "Transition de parcours, arrêt des études d'astrophysique et validation d'une licence de physique (NAC).",
       status: 'Termine',
       position: 'right'
     },
     {
       year: '2025 - Aujourd\'hui',
-      description: 'Lancement de la chaine YouTube orientee storytelling jeu video.',
+      description: 'Lancement de la chaîne YouTube orientée storytelling jeu vidéo.',
       status: 'Actif',
       position: 'left'
     },
     {
       year: '2024 - 2025',
-      description: "Etudes en astrophysique a l'Universite de Caen avec un side job barista a la Taverne de la Paix.",
+      description: "Études en astrophysique à l'Université de Caen avec un side job barista à la Taverne de la Paix.",
       status: 'Termine',
       position: 'right'
     },
@@ -45,7 +45,7 @@ const Timeline: React.FC = memo(() => {
     <section id="timeline">
       <h2>Mon Parcours</h2>
       <div className="section-content">
-        <p>Les etapes les plus recentes apparaissent en premier pour montrer ce que je fais aujourd'hui.</p>
+        <p>Les étapes les plus récentes apparaissent en premier pour montrer ce que je fais aujourd'hui.</p>
         <div className="timeline">
           {timelineItems.map((item, index) => (
             <div key={index} className={`timeline-item timeline-${item.position} timeline-animate`}>

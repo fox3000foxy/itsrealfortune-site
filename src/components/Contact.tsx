@@ -6,13 +6,13 @@ const Contact: React.FC = () => {
       <section id="contact">
         <h2>Contactez-moi</h2>
         <div className="section-content">
-          <p><strong>Collaboration</strong>, <strong>intervention</strong> ou <strong>projet media</strong> ? Parlons-en.</p>
+          <p><strong>Collaboration</strong>, <strong>intervention</strong> ou <strong>projet média</strong> ? Parlons-en.</p>
           <a href="mailto:contact@itsrealfortune.fr">contact@itsrealfortune.fr</a><br /><br />
           <div className="collaboration-info">
             <h3>Pourquoi me contacter ?</h3>
-            <p><strong>Video</strong> ou partenariat de campagne.</p>
-            <p><strong>Vulgarisation</strong> et intervention pedagogique.</p>
-            <p><strong>Format social</strong> oriente storytelling.</p>
+            <p><strong>Vidéo</strong> ou partenariat de campagne.</p>
+            <p><strong>Vulgarisation</strong> et intervention pédagogique.</p>
+            <p><strong>Format social</strong> orienté storytelling.</p>
           </div>
         </div>
       </section>

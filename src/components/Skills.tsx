@@ -7,12 +7,12 @@ const Skills = memo(function Skills() {
       items: ['Vulgarisation scientifique', 'Astrophysique et physique', 'Storytelling et analyse de contenu']
     },
     {
-      category: 'Expertise operationnelle',
-      items: ['Creation de contenu video', 'Animation de communaute', 'Prise de parole pedagogique']
+      category: 'Expertise opérationnelle',
+      items: ['Création de contenu vidéo', 'Animation de communauté', 'Prise de parole pédagogique']
     },
     {
-      category: 'Domaines complementaires',
-      items: ['Barista et culture cafe', 'Design graphique', 'Approche psychologie et ecoute']
+      category: 'Domaines complémentaires',
+      items: ['Barista et culture café', 'Design graphique', 'Approche psychologie et écoute']
     }
   ];
 
@@ -34,7 +34,7 @@ const Skills = memo(function Skills() {
           ))}
         </div>
         <p>
-          Focus actuel: creation de contenu et projets concrets, avec une base scientifique solide.
+          Focus actuel : création de contenu et projets concrets, avec une base scientifique solide.
         </p>
       </div>
     </section>

@@ -16,7 +16,7 @@ const About: React.FC = () => {
           </p>
         </div>
         <p>
-          Je fais le lien entre <strong>science</strong>, <strong>storytelling</strong> et <strong>creation de contenu</strong>.
+          Je fais le lien entre <strong>science</strong>, <strong>storytelling</strong> et <strong>création de contenu</strong>.
         </p>
         <p>
           Ce site sert a voir vite: <strong>qui je suis</strong>, <strong>ce que je fais</strong> et <strong>comment me contacter</strong>.
