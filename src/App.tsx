@@ -19,14 +19,16 @@ function App() {
     <Suspense fallback={<div>Loading...</div>}>
       <BackgroundAnimation />
       <Header />
-      <About />
-      <Collaborations />
-      <Contact />
-      <Events />
-      <Projects />
-      <Skills />
-      <Testimonials />
-      <Timeline />
+      <main className="page-content">
+        <About />
+        <Projects />
+        <Collaborations />
+        <Timeline />
+        <Events />
+        <Skills />
+        <Testimonials />
+        <Contact />
+      </main>
       <Footer />
     </Suspense>
   );

@@ -31,7 +31,7 @@ const Projects: React.FC = memo(() => {
   ];
 
   return (
-    <section>
+    <section id="projects">
       <h2>Mes Projets</h2>
       <div className="section-content">
         <p>

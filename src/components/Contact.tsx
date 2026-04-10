@@ -3,25 +3,20 @@ import React from 'react';
 const Contact: React.FC = () => {
   return (
     <>
-      <section>
+      <section id="contact">
         <h2>Contactez-moi</h2>
         <div className="section-content">
-          <p>Vous souhaitez me proposer une collaboration, une intervention ou simplement échanger sur l'astrophysique ou le café ? N'hésitez pas à me contacter !</p>
+          <p>Vous souhaitez proposer une collaboration, une intervention ou un projet concret ? Parlons-en.</p>
           <a href="mailto:contact@itsrealfortune.fr">contact@itsrealfortune.fr</a><br /><br />
-          
-          
-          
-          
           <div className="collaboration-info">
             <h3>Pourquoi me contacter ?</h3>
-            <p>Si vous avez des questions sur l'astrophysique ou des explications sur des phénomènes cosmiques.</p>
-            <p>Si vous souhaitez des conseils sur le café, des techniques d'extraction ou la préparation du café de spécialité.</p>
-            <p>Si vous souhaitez des collaborations vidéo, des interventions dans des écoles ou des conférences de vulgarisation.</p>
-            <p>Pour des séances de dégustation de café commentées avec une touche scientifique, c'est malheuresement pas possible, désolée.</p>
+            <p>Collaboration video ou partenariat sur une campagne.</p>
+            <p>Intervention pedagogique autour de la science et de la vulgarisation.</p>
+            <p>Projet editorial ou format social orienté storytelling.</p>
           </div>
         </div>
       </section>
-      <section>
+      <section id="find-me">
         <h2>Où me trouver</h2>
         <div className="section-content">
           <p>Vous pouvez me retrouver en ligne sur mes différentes plateformes ou physiquement à Caen.</p>

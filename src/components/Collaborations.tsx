@@ -30,7 +30,7 @@ const Collaborations: React.FC = memo(() => {
     ];
 
     return (
-        <section>
+        <section id="collaborations">
             <h2>Collaborations</h2>
             <div className="section-content">
                 <p>J'ai eu le plaisir de collaborer avec ces organisations et marques qui partagent mes passions pour la science et le café, et la création de contenu.</p>

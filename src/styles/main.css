@@ -914,4 +914,203 @@ footer {
     }
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgba(26, 26, 26, 0.25), rgba(26, 26, 26, 0.35));
+}
+
+body::before {
+    background: radial-gradient(circle at 20% 20%, rgba(255, 75, 75, 0.12), transparent 40%),
+                radial-gradient(circle at 80% 80%, rgba(255, 209, 102, 0.1), transparent 45%),
+                rgba(0, 0, 0, 0.7);
+}
+
+.container {
+    opacity: 0.72;
+    filter: saturate(1.2);
+    pointer-events: none;
+}
+
+.trace {
+    filter: drop-shadow(0 0 18px rgba(247, 154, 255, 0.4));
+}
+
+.page-content {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: clamp(18px, 2vw, 32px);
+}
+
+header {
+    max-width: 1120px;
+    margin: 24px auto 0;
+    padding: clamp(24px, 4vw, 44px);
+}
+
+.page-nav {
+    position: sticky;
+    top: 12px;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 22px auto;
+    padding: 10px;
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.45);
+    backdrop-filter: blur(8px);
+    width: fit-content;
+}
+
+.page-nav-link {
+    display: inline-block;
+    padding: 8px 14px;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.08);
+    color: var(--text-light);
+    font-size: 0.92rem;
+    text-decoration: none;
+}
+
+.page-nav-link:hover {
+    text-decoration: none;
+    color: var(--text-light);
+    background: linear-gradient(to right, rgba(255, 75, 75, 0.85), rgba(255, 209, 102, 0.85));
+}
+
+section {
+    margin-bottom: clamp(26px, 5vw, 48px);
+    padding: clamp(24px, 5vw, 48px);
+}
+
+.about-section {
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding-top: 0;
+}
+
+.about-section::before {
+    display: none;
+}
+
+.about-section:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+.skills-grid {
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.skill-card-priority {
+    background: rgba(0, 0, 0, 0.22);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 12px;
+    padding: 18px;
+    text-align: left;
+}
+
+.skill-card-priority h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: var(--accent-color);
+}
+
+.skill-card-priority ul {
+    margin: 0;
+    padding-left: 18px;
+}
+
+.skill-card-priority li {
+    margin-bottom: 8px;
+}
+
+.timeline-status {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 0.82rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.status-actif {
+    background: rgba(0, 173, 117, 0.2);
+    color: #87ffd5;
+}
+
+.status-termine {
+    background: rgba(255, 209, 102, 0.2);
+    color: #ffe2a2;
+}
+
+.status-en-pause {
+    background: rgba(186, 186, 186, 0.2);
+    color: #e8e8e8;
+}
+
+.compact-testimonials .testimonials {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 16px;
+    overflow: visible;
+    padding: 8px 0;
+}
+
+.compact-testimonials .testimonial-card {
+    min-width: auto;
+    padding: 20px 18px 16px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.compact-testimonials .testimonial-card::before {
+    display: none;
+}
+
+.compact-testimonials .testimonial-quote {
+    top: 10px;
+    left: 12px;
+    font-size: 1.8rem;
+}
+
+.compact-testimonials .testimonial-content {
+    margin-bottom: 14px;
+    padding-left: 10px;
+    font-style: normal;
+}
+
+.compact-testimonials .testimonial-author-info {
+    padding-left: 10px;
+}
+
+@media (max-width: 768px) {
+    header {
+        margin-top: 0;
+        border-radius: 0;
+    }
+
+    .page-nav {
+        top: 6px;
+        border-radius: 16px;
+    }
+
+    .page-nav-link {
+        font-size: 0.88rem;
+        padding: 7px 10px;
+    }
+
+    .container {
+        opacity: 0.62;
+    }
+}
+
 

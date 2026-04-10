@@ -2,7 +2,7 @@ import React from 'react';
 
 const About: React.FC = () => {
   return (
-    <section>
+    <section id="about" className="about-section">
       <h2>À Propos</h2>
       <div className="section-content">
         <div className="portrait-container" style={{ textAlign: 'center' }}>

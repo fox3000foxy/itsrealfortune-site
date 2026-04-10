@@ -2,25 +2,40 @@ import { memo } from 'react';
 
 const Skills = memo(function Skills() {
   const skills = [
-    { name: 'Études en Astrophysique', progress: 85 },
-    { name: 'Maîtrise Barista', progress: 90 },
-    { name: 'Création de contenu vidéo', progress: 15 },
-    { name: 'Art graphique', progress: 75 },
+    {
+      category: 'Expertise principale',
+      items: ['Vulgarisation scientifique', 'Astrophysique et physique', 'Storytelling et analyse de contenu']
+    },
+    {
+      category: 'Expertise operationnelle',
+      items: ['Creation de contenu video', 'Animation de communaute', 'Prise de parole pedagogique']
+    },
+    {
+      category: 'Domaines complementaires',
+      items: ['Barista et culture cafe', 'Design graphique', 'Approche psychologie et ecoute']
+    }
   ];
 
   return (
-    <section>
+    <section id="skills">
       <h2>Mes Passions & Compétences</h2>
       <div className="section-content">
-        {skills.map((skill, index) => (
-          <div key={index} className="skill-item">
-            <p>{skill.name}</p>
-            <div className="skill-bar">
-              <div className="skill-progress" style={{ width: `${skill.progress}%` }}></div>
+        <p>Pas de jauges arbitraires: voici mes competences classees par priorite et impact.</p>
+        <div className="skills-grid">
+          {skills.map((group, index) => (
+            <div key={index} className="skill-card-priority">
+              <h3>{group.category}</h3>
+              <ul>
+                {group.items.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
             </div>
-          </div>
-        ))}
-        <p>Actuellement en Master d'Astrophysique à l'Université de Caen.</p>
+          ))}
+        </div>
+        <p>
+          Focus actuel: creation de contenu et projets concrets, avec une base scientifique solide.
+        </p>
       </div>
     </section>
   );
