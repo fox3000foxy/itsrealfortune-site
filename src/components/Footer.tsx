@@ -41,6 +41,24 @@ const Footer: React.FC = () => {
           <a href="https://github.com/itsrealfortune" target="_blank" rel="noopener noreferrer" aria-label="GitHub ItsRealFortune">
             <i className="fab fa-github"></i>
           </a>
+          <a href="https://ko-fi.com/itsrealfortune" target="_blank" rel="noopener noreferrer" aria-label="Ko-fi ItsRealFortune">
+            <i className="fab fa-ko-fi"></i>
+          </a>
+          <a href="https://discord.com/users/301492402999263235" target="_blank" rel="noopener noreferrer" aria-label="Discord ItsRealFortune">
+            <i className="fab fa-discord"></i>
+          </a>
+          <a href="https://paypal.me/itsrealfortune" target="_blank" rel="noopener noreferrer" aria-label="PayPal ItsRealFortune">
+            <i className="fab fa-paypal"></i>
+          </a>
+          <a href="https://steamcommunity.com/id/itsrealfortune" target="_blank" rel="noopener noreferrer" aria-label="Steam ItsRealFortune">
+            <i className="fab fa-steam"></i>
+          </a>
+          <a href="https://twitch.tv/itsrealfortune" target="_blank" rel="noopener noreferrer" aria-label="Twitch ItsRealFortune">
+            <i className="fab fa-twitch"></i>
+          </a>
+          <a href="https://reddit.com/user/Fast_Copy_514/" target="_blank" rel="noopener noreferrer" aria-label="Reddit ItsRealFortune">
+            <i className="fab fa-reddit"></i>
+          </a>
         </div>
         <p>&copy; 2025 ItsRealFortune. Tous droits réservés.</p>
         <p>
