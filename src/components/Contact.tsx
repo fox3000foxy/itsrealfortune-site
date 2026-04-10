@@ -1,4 +1,5 @@
 import React from 'react';
+import ContactForm from './ContactForm';
 
 const Contact: React.FC = () => {
   return (
@@ -21,6 +22,7 @@ const Contact: React.FC = () => {
         <div className="section-content">
           <p>Liens directs et utiles.</p>
           <p>Email: <a href="mailto:contact@itsrealfortune.fr">contact@itsrealfortune.fr</a></p>
+          <ContactForm />
         </div>
       </section>
     </>

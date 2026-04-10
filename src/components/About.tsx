@@ -2,7 +2,7 @@ import React from 'react';
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="about-section" style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+    <section id="about" className="about-section" style={{ minHeight: '50vh', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
       <div className="section-content">
         <div className="portrait-container" style={{ textAlign: 'center' }}>
           <img

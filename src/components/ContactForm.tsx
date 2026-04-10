@@ -5,7 +5,7 @@ const ContactForm: React.FC = () => {
   const { formData, isSubmitting, submitStatus, handleChange, handleSubmit } = useContactForm();
 
   return (
-    <div className="collaboration-form" style={{ marginTop: '20px', maxWidth: '600px' }}>
+    <div className="collaboration-form" style={{ marginTop: '20px' }}>
       <form onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">Nom</label>
