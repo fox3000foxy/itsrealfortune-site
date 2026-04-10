@@ -12,7 +12,7 @@ const Skills = memo(function Skills() {
     },
     {
       category: 'Domaines complémentaires',
-      items: ['Barista et culture café', 'Design graphique', 'Approche psychologie et écoute']
+      items: ['Barista et culture café', 'Design graphique', 'Psychologie et écoute']
     }
   ];
 
@@ -20,7 +20,7 @@ const Skills = memo(function Skills() {
     <section id="skills">
       <h2>Mes Passions & Compétences</h2>
       <div className="section-content">
-        <p>Pas de jauges arbitraires: voici mes competences classees par priorite et impact.</p>
+        <p>Pas de jauges arbitraires — mes compétences classées par priorité et par impact.</p>
         <div className="skills-grid">
           {skills.map((group, index) => (
             <div key={index} className="skill-card-priority">
@@ -34,7 +34,7 @@ const Skills = memo(function Skills() {
           ))}
         </div>
         <p>
-          Focus actuel : création de contenu et projets concrets, avec une base scientifique solide.
+          En ce moment : création de contenu et projets concrets, avec une base scientifique solide.
         </p>
       </div>
     </section>
@@ -42,4 +42,3 @@ const Skills = memo(function Skills() {
 });
 
 export default Skills;
-

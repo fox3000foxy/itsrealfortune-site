@@ -63,10 +63,10 @@ const Footer: React.FC = () => {
         <p>&copy; 2025 ItsRealFortune. Tous droits réservés.</p>
         <p>
           <button type="button" className="footer-link-button" onClick={() => setIsPrivacyOpen(true)}>
-            Privacy Policy
+            Politique de confidentialité
           </button>
           {' | '}
-          <a href="#">Back to Top</a>
+          <a href="#">Haut de page</a>
         </p>
       </footer>
 
@@ -79,16 +79,16 @@ const Footer: React.FC = () => {
             aria-labelledby="privacy-modal-title"
             onClick={(event) => event.stopPropagation()}
           >
-            <h3 id="privacy-modal-title">Privacy Policy</h3>
+            <h3 id="privacy-modal-title">Politique de confidentialité</h3>
             <p>
               Nous collectons uniquement les informations que vous nous envoyez volontairement
-              (par exemple via email ou formulaire de contact).
+              (par exemple via e-mail ou formulaire de contact).
             </p>
             <p>
-              Ces donnees servent uniquement a repondre a votre demande et ne sont pas revendues.
+              Ces données servent uniquement à répondre à votre demande et ne sont pas revendues.
             </p>
             <p>
-              Pour toute demande de suppression ou de modification, contactez:
+              Pour toute demande de suppression ou de modification, contactez :
               {' '}
               <a href="mailto:contact@itsrealfortune.fr">contact@itsrealfortune.fr</a>
             </p>
@@ -103,4 +103,3 @@ const Footer: React.FC = () => {
 };
 
 export default Footer;
-

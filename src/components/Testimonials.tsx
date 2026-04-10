@@ -21,7 +21,7 @@ const Testimonials: React.FC = memo(function Testimonials() {
       role: 'Abonnée YouTube',
     },
     {
-      content: "En tant qu'ancienne enseignante, j'ai vu peu d'etudiants aussi rigoureux et curieux. Meme avec un changement de voie, elle garde un vrai niveau d'exigence.",
+      content: "En tant qu'ancienne enseignante, j'ai vu peu d'étudiants aussi rigoureux et curieux. Même avec un changement de voie, elle garde un vrai niveau d'exigence.",
       author: 'Lucie Bernard',
       role: 'Ex-enseignante',
     }
@@ -32,7 +32,7 @@ const Testimonials: React.FC = memo(function Testimonials() {
       <h2>Retours utiles</h2>
       <div className='section-content'>
         <p>
-          Une selection courte de retours contextuels. Pour des avis verifies, l'objectif est de centraliser
+          Une sélection courte de retours contextuels. Pour des avis vérifiés, l'objectif est de centraliser
           progressivement sur des plateformes tierces.
         </p>
         <div className='testimonials'>
