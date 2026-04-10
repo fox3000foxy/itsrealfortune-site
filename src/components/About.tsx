@@ -20,7 +20,7 @@ const About: React.FC = () => {
         <p>
           En deux mots : qui je suis, ce que je fais, comment me joindre.
         </p>
-        <div className="social-icons">
+        {/* <div className="social-icons">
           <a href="https://discord.com/users/301492402999263235" target="_blank" rel="noopener noreferrer" aria-label="Discord ItsRealFortune">
             <i className="fab fa-discord"></i>
           </a>
@@ -51,7 +51,7 @@ const About: React.FC = () => {
           <a href="https://reddit.com/user/Fast_Copy_514/" target="_blank" rel="noopener noreferrer" aria-label="Reddit ItsRealFortune">
             <i className="fab fa-reddit"></i>
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   );

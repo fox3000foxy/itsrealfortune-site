@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
             <i className="fab fa-github"></i>
           </a>
           <a href="https://ko-fi.com/itsrealfortune" target="_blank" rel="noopener noreferrer" aria-label="Ko-fi ItsRealFortune">
-            <i className="fab fa-ko-fi"></i>
+            <i className="fa-solid fa-mug-hot"></i>
           </a>
           <a href="https://discord.com/users/301492402999263235" target="_blank" rel="noopener noreferrer" aria-label="Discord ItsRealFortune">
             <i className="fab fa-discord"></i>
