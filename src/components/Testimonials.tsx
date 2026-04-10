@@ -11,7 +11,7 @@ import '../App.css';
 const Testimonials: React.FC = memo(function Testimonials() {
   const testimonials: Testimonial[] = [
     {
-      content: "Chloe a apporte une energie tres positive a l'equipe du cafe. Elle ecoute les clients, garde le cap pendant les rushs et cree une ambiance chaleureuse.",
+      content: "Chloé a apporte une energie tres positive a l'equipe du cafe. Elle ecoute les clients, garde le cap pendant les rushs et cree une ambiance chaleureuse.",
       author: 'Stephane Aubert',
       role: 'Gerant, Taverne de la Paix',
     },

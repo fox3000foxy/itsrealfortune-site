@@ -13,6 +13,9 @@ const Footer: React.FC = () => {
         <a href="https://www.linkedin.com/in/chloé-rolzhausen-1b0439316/" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-linkedin"></i>
         </a>
+        <a href="https://github.com/itsrealfortune" target="_blank" rel="noopener noreferrer" aria-label="GitHub ItsRealFortune">
+          <i className="fab fa-github"></i>
+        </a>
       </div>
       <p>&copy; 2025 ItsRealFortune. Tous droits réservés.</p>
       <p>

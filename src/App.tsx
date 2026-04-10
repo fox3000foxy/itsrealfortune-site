@@ -1,4 +1,4 @@
-import { Suspense, lazy } from 'react';
+import { lazy } from 'react';
 import "./App.css";
 import "./styles/main.css";
 
@@ -16,7 +16,8 @@ const Timeline = lazy(() => import('./components/Timeline'));
 
 function App() {
   return (
-    <Suspense fallback={<div>Loading...</div>}>
+    // <Suspense fallback={<div>Loading...</div>}>
+    <>
       <BackgroundAnimation />
       <Header />
       <main className="page-content">
@@ -30,7 +31,8 @@ function App() {
         <Contact />
       </main>
       <Footer />
-    </Suspense>
+    </>
+    // </Suspense>
   );
 }
 

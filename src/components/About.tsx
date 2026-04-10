@@ -8,23 +8,18 @@ const About: React.FC = () => {
         <div className="portrait-container" style={{ textAlign: 'center' }}>
           <img 
             src="avatar.jpg" 
-            alt="ItsRealFortune - Portrait" 
+            alt="Chloé Rolzhausen - Portrait" 
             style={{ borderRadius: '50%', width: '150px', height: '150px', objectFit: 'cover' }} 
           />
-          <p style={{ textAlign: 'justify' }}>
-            Bonjour ! Je suis ItsRealFortune, étudiante en astrophysique théorique à l'Université de Caen. 
-            Passionnée par l'exploration de l'univers et ses mystères, je partage mon temps entre mes études 
-            et la création de contenu sur YouTube.
+          <p style={{ textAlign: 'center' }}>
+            <strong>Chloé Rolzhausen</strong>, alias <strong>ItsRealFortune</strong>.
           </p>
         </div>
         <p>
-          Sur ma chaîne, je présente des jeux vidéo en mettant l'accent sur le storytelling, cherchant à 
-          rendre chaque expérience de jeu captivante et immersive. Mon parcours atypique m'a permis de 
-          développer une vision unique où science et créativité se rencontrent.
+          Je fais le lien entre <strong>science</strong>, <strong>storytelling</strong> et <strong>creation de contenu</strong>.
         </p>
         <p>
-          Je m'efforce de rendre la science accessible à tous, en utilisant des exemples concrets et des 
-          analogies simples pour expliquer des concepts complexes.
+          Ce site sert a voir vite: <strong>qui je suis</strong>, <strong>ce que je fais</strong> et <strong>comment me contacter</strong>.
         </p>
       </div>
     </section>

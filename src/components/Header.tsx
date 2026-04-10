@@ -12,8 +12,9 @@ const Header: React.FC = () => {
 
   return (
     <header>
-      <h1>ItsRealFortune</h1>
-      <p>Astrophysique | Barista | Créatrice de Contenu</p>
+      <h1 className="identity-name">Chloé Rolzhausen</h1>
+      <p className="identity-handle">ItsRealFortune</p>
+      <p><strong>Objectif du site :</strong> montrer des <strong>projets concrets</strong>, des <strong>collaborations</strong> et un <strong>contact direct</strong>.</p>
       <nav className="page-nav" aria-label="Navigation des sections">
         {navItems.map((item) => (
           <a key={item.href} href={item.href} className="page-nav-link">
@@ -30,6 +31,9 @@ const Header: React.FC = () => {
         </a>
         <a href="https://www.linkedin.com/in/chloé-rolzhausen-1b0439316/" target="_blank" rel="noopener noreferrer">
           <i className="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/itsrealfortune" target="_blank" rel="noopener noreferrer" aria-label="GitHub ItsRealFortune">
+          <i className="fab fa-github"></i>
         </a>
       </div>
     </header>

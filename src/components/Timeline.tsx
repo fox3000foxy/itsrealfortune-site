@@ -22,7 +22,7 @@ const Timeline: React.FC = memo(() => {
       position: 'right'
     },
     {
-      year: '2025',
+      year: '2025 - Aujourd\'hui',
       description: 'Lancement de la chaine YouTube orientee storytelling jeu video.',
       status: 'Actif',
       position: 'left'
@@ -30,7 +30,7 @@ const Timeline: React.FC = memo(() => {
     {
       year: '2024 - 2025',
       description: "Etudes en astrophysique a l'Universite de Caen avec un side job barista a la Taverne de la Paix.",
-      status: 'En pause',
+      status: 'Termine',
       position: 'right'
     },
     {

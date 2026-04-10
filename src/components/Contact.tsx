@@ -6,21 +6,22 @@ const Contact: React.FC = () => {
       <section id="contact">
         <h2>Contactez-moi</h2>
         <div className="section-content">
-          <p>Vous souhaitez proposer une collaboration, une intervention ou un projet concret ? Parlons-en.</p>
+          <p><strong>Collaboration</strong>, <strong>intervention</strong> ou <strong>projet media</strong> ? Parlons-en.</p>
           <a href="mailto:contact@itsrealfortune.fr">contact@itsrealfortune.fr</a><br /><br />
           <div className="collaboration-info">
             <h3>Pourquoi me contacter ?</h3>
-            <p>Collaboration video ou partenariat sur une campagne.</p>
-            <p>Intervention pedagogique autour de la science et de la vulgarisation.</p>
-            <p>Projet editorial ou format social orienté storytelling.</p>
+            <p><strong>Video</strong> ou partenariat de campagne.</p>
+            <p><strong>Vulgarisation</strong> et intervention pedagogique.</p>
+            <p><strong>Format social</strong> oriente storytelling.</p>
           </div>
         </div>
       </section>
       <section id="find-me">
         <h2>Où me trouver</h2>
         <div className="section-content">
-          <p>Vous pouvez me retrouver en ligne sur mes différentes plateformes ou physiquement à Caen.</p>
+          <p>Liens directs et utiles.</p>
           <p>Email: <a href="mailto:contact@itsrealfortune.fr">contact@itsrealfortune.fr</a></p>
+          <p>GitHub: <a href="https://github.com/itsrealfortune" target="_blank" rel="noopener noreferrer">github.com/itsrealfortune</a></p>
           <div className="social-icons">
             <a href="https://instagram.com/itsrealfortune" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-instagram"></i>
@@ -30,6 +31,9 @@ const Contact: React.FC = () => {
             </a>
             <a href="https://www.linkedin.com/in/chloé-rolzhausen-1b0439316/" target="_blank" rel="noopener noreferrer">
               <i className="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/itsrealfortune" target="_blank" rel="noopener noreferrer" aria-label="GitHub ItsRealFortune">
+              <i className="fab fa-github"></i>
             </a>
           </div>
         </div>
